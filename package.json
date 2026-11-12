@@ -1,0 +1,16 @@
+{
+  "name": "mistral-support-chat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal customer support chat web app powered by the Mistral API",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@mistralai/mistralai": "^1.7.1",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2"
+  }
+}
